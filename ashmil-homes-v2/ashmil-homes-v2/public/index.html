@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashmil Homes – Premium Real Estate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Manrope', sans-serif; }
+    h1, h2, h3, .font-serif { font-family: 'Fraunces', serif; }
+    .bg-navy { background-color: #0A1A2F; }
+    .bg-navy-deep { background-color: #051020; }
+    .text-gold { color: #D4AF37; }
+    .gradient-gold { background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%); }
+    .hero-gradient { background: linear-gradient(90deg, rgba(5,16,32,0.85) 0%, rgba(5,16,32,0.4) 100%); }
+    .shadow-gold { box-shadow: 0 4px 14px rgba(212,175,55,0.3); }
+  </style>
+</head>
+<body class="bg-white">
+
+<div class="min-h-screen flex flex-col">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-300">
+    <div class="container mx-auto px-4 py-3 md:py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2">
+        <img src="https://hotgistloaded.com.ng/wp-content/uploads/2026/05/logo-ashmil-DAwsa8ai.jpg" alt="Logo" class="h-11 w-11 md:h-12 md:w-12 rounded-full object-cover ring-2 ring-gold/60 shadow-gold">
+        <div class="hidden sm:block">
+          <div class="font-serif text-lg md:text-xl font-bold text-white">Ashmil Homes</div>
+          <div class="text-[10px] md:text-xs tracking-widest uppercase text-white/80">Nigeria Limited</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex gap-8">
+        <a href="/" class="text-sm font-medium text-gold">Home</a>
+        <a href="/properties" class="text-sm font-medium text-white hover:text-gold transition">Properties</a>
+        <a href="/about" class="text-sm font-medium text-white hover:text-gold transition">About</a>
+        <a href="/contact" class="text-sm font-medium text-white hover:text-gold transition">Contact</a>
+        <a href="/properties" class="gradient-gold text-navy px-4 py-2 rounded-md text-sm font-semibold shadow-gold flex items-center gap-2">
+          <i data-lucide="search" class="w-4 h-4"></i> Find a Home
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <section class="relative h-[88vh] min-h-[520px] md:h-screen overflow-hidden">
+      <div class="absolute inset-0 hero-slide transition-opacity duration-1000 opacity-100">
+        <img src="https://hotgistloaded.com.ng/wp-content/uploads/2026/05/pexels-shox-31656145-scaled.jpg" class="w-full h-full object-cover">
+        <div class="absolute inset-0 hero-gradient"></div>
+      </div>
+      <div class="relative z-10 h-full container mx-auto px-4 flex flex-col justify-center text-white">
+        <div class="max-w-3xl">
+          <span class="inline-block text-gold text-xs md:text-sm tracking-[0.3em] uppercase mb-4 border border-gold/40 px-3 py-1 rounded-full">Premium Real Estate</span>
+          <h1 class="font-serif text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6">Your Dream Home, Delivered</h1>
+          <p class="text-base md:text-xl text-white/90 max-w-2xl mb-8">Luxury duplexes and serviced homes built to modern standards across Lagos.</p>
+          <div class="flex gap-3">
+            <a href="/properties" class="gradient-gold text-navy px-8 py-3 rounded-md shadow-gold font-semibold hover:opacity-90 transition flex items-center gap-2">
+              <i data-lucide="search" class="w-5 h-5"></i> Browse Properties
+            </a>
+            <a href="/contact" class="border border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-navy transition font-semibold flex items-center gap-2">
+              <i data-lucide="phone" class="w-5 h-5"></i> Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-navy text-white py-12">
+      <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div><div class="font-serif text-4xl md:text-5xl font-bold text-gold">50+</div><div class="text-xs uppercase tracking-wider mt-2">Homes Delivered</div></div>
+        <div><div class="font-serif text-4xl md:text-5xl font-bold text-gold">10+</div><div class="text-xs uppercase tracking-wider mt-2">Years Experience</div></div>
+        <div><div class="font-serif text-4xl md:text-5xl font-bold text-gold">8</div><div class="text-xs uppercase tracking-wider mt-2">Lagos Locations</div></div>
+        <div><div class="font-serif text-4xl md:text-5xl font-bold text-gold">100%</div><div class="text-xs uppercase tracking-wider mt-2">Client Trust</div></div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 text-center max-w-2xl mx-auto mb-12">
+        <span class="text-gold text-xs uppercase tracking-wider">Why Choose Us</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold mt-2">Tested. Trusted. Proven.</h2>
+      </div>
+      <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition"><div class="h-14 w-14 rounded-lg bg-gradient-gold flex items-center justify-center mb-5"><i data-lucide="award" class="h-7 w-7 text-navy"></i></div><h3 class="font-serif text-xl font-semibold mb-2">Quality Construction</h3><p class="text-gray-600">Reputable engineers, premium materials, modern standards.</p></div>
+        <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition"><div class="h-14 w-14 rounded-lg bg-gradient-gold flex items-center justify-center mb-5"><i data-lucide="shield-check" class="h-7 w-7 text-navy"></i></div><h3 class="font-serif text-xl font-semibold mb-2">Verified Titles</h3><p class="text-gray-600">Genuine documents and transparent processes.</p></div>
+        <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition"><div class="h-14 w-14 rounded-lg bg-gradient-gold flex items-center justify-center mb-5"><i data-lucide="sparkles" class="h-7 w-7 text-navy"></i></div><h3 class="font-serif text-xl font-semibold mb-2">End-to-End Service</h3><p class="text-gray-600">Land, design, build, sale, and shortlets — all in one place.</p></div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
+          <div><span class="text-gold text-xs uppercase tracking-wider">Featured Listings</span><h2 class="font-serif text-3xl md:text-5xl font-bold mt-2">Discover Your Next Home</h2></div>
+          <a href="/properties" class="border border-navy text-navy px-4 py-2 rounded-md hover:bg-navy hover:text-white transition flex items-center gap-2">
+            View All Properties <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <div id="featured-properties" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <section class="relative py-20 bg-navy-deep text-white text-center">
+      <div class="container mx-auto px-4 max-w-3xl">
+        <i data-lucide="building-2" class="h-16 w-16 text-gold mx-auto mb-4"></i>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold mb-4">Build Your Dream Home With Us</h2>
+        <p class="text-white/80 mb-8">Whether you're buying land, acquiring a finished home, or building from scratch, we guide you every step of the way.</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href="/contact" class="gradient-gold text-navy px-8 py-3 rounded-md shadow-gold font-semibold hover:opacity-90 transition flex items-center gap-2">
+            <i data-lucide="calendar" class="w-5 h-5"></i> Schedule a Consultation
+          </a>
+          <a href="/properties" class="border border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-navy transition font-semibold flex items-center gap-2">
+            <i data-lucide="search" class="w-5 h-5"></i> Browse Listings
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-navy-deep text-white">
+    <div class="container mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div><img src="https://hotgistloaded.com.ng/wp-content/uploads/2026/05/logo-ashmil-DAwsa8ai.jpg" class="w-14 h-14 rounded-full ring-2 ring-gold/60 mb-4"><h3 class="font-serif text-xl font-bold mb-2">Ashmil Homes</h3><p class="text-sm text-white/70">Turning property dreams into reality across Lagos.</p></div>
+      <div><h4 class="font-serif text-gold text-lg mb-4">Quick Links</h4><ul class="space-y-2 text-sm"><li><a href="/" class="hover:text-gold">Home</a></li><li><a href="/properties" class="hover:text-gold">Properties</a></li><li><a href="/about" class="hover:text-gold">About Us</a></li><li><a href="/contact" class="hover:text-gold">Contact</a></li></ul></div>
+      <div><h4 class="font-serif text-gold text-lg mb-4">Categories</h4><ul class="space-y-2 text-sm"><li><a href="/properties?category=houses" class="hover:text-gold"><i data-lucide="home" class="inline-block w-4 h-4 mr-1"></i>Houses for Sale</a></li><li><a href="/properties?category=land" class="hover:text-gold"><i data-lucide="trees" class="inline-block w-4 h-4 mr-1"></i>Land for Sale</a></li><li><a href="/properties?category=shortlets" class="hover:text-gold"><i data-lucide="bed-double" class="inline-block w-4 h-4 mr-1"></i>Shortlets</a></li><li><a href="/properties?category=flats" class="hover:text-gold"><i data-lucide="building-2" class="inline-block w-4 h-4 mr-1"></i>Flats & Apartments</a></li></ul></div>
+      <div><h4 class="font-serif text-gold text-lg mb-4">Get In Touch</h4><ul class="space-y-2 text-sm"><li><i data-lucide="map-pin" class="inline-block w-4 h-4 mr-1 text-gold"></i>10 Unilag Estate, Ikorodu, Lagos</li><li><i data-lucide="phone" class="inline-block w-4 h-4 mr-1 text-gold"></i>0707 440 4637, 0902 396 7106</li><li><i data-lucide="mail" class="inline-block w-4 h-4 mr-1 text-gold"></i>Ashmilhomesnigerialimited@gmail.com</li></ul></div>
+    </div>
+    <div class="border-t border-white/10 py-4 text-center text-xs text-white/60">© 2025 Ashmil Homes Nigeria Limited | <a href="/admin/login" class="hover:text-gold">Admin Login</a></div>
+  </footer>
+
+  <a href="https://wa.me/2347074404637" target="_blank" class="fixed bottom-5 right-5 bg-[#25D366] rounded-full p-3 shadow-lg z-50"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="w-8 h-8"></a>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => lucide.createIcons());
+    async function loadFeatured() {
+      try {
+        const res = await fetch('/api/properties');
+        const props = await res.json();
+        const container = document.getElementById('featured-properties');
+        if (!props.length) { container.innerHTML = '<p class="col-span-full text-center text-gray-500">No properties yet.</p>'; return; }
+        container.innerHTML = props.slice(0,3).map(p => `
+          <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+            <div class="relative h-64"><img src="${p.images?.[0] || 'https://via.placeholder.com/800x600'}" class="w-full h-full object-cover"><span class="absolute top-3 right-3 bg-gold text-navy text-xs font-bold px-3 py-1 rounded-full">${p.category}</span></div>
+            <div class="p-5"><div class="flex justify-between"><h3 class="font-serif text-xl font-bold">${p.title}</h3><span class="text-gold font-bold">₦${p.price}</span></div><p class="text-gray-500 text-sm mt-1">${p.location}</p><p class="text-gray-600 text-sm mt-2 line-clamp-2">${p.description}</p><a href="/property-details?id=${p._id}" class="inline-block mt-3 text-gold text-sm font-semibold hover:underline">View details <i data-lucide="arrow-right" class="inline-block w-4 h-4 ml-1"></i></a></div>
+          </div>
+        `).join('');
+        lucide.createIcons();
+      } catch(err) { console.error(err); }
+    }
+    loadFeatured();
+  </script>
+</body>
+</html>
