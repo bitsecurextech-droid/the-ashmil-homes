@@ -92,7 +92,7 @@
     container.innerHTML = props.map(p => `
       <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
         <div class="relative h-64"><img src="${p.images?.[0] || 'https://via.placeholder.com/800x600'}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700"><div class="absolute top-3 right-3 bg-gold text-navy text-xs font-bold px-3 py-1 rounded-full shadow">${p.category}</div></div>
-        <div class="p-5"><div class="flex justify-between items-start"><h3 class="font-serif text-xl font-bold group-hover:text-gold transition">${escapeHtml(p.title)}</h3><span class="text-gold font-bold">₦${p.price}</span></div><p class="text-gray-500 text-sm mt-1">${escapeHtml(p.location)}</p><p class="text-gray-600 text-sm mt-2 line-clamp-2">${escapeHtml(p.description)}</p><a href="/property-details?id=${p._id}" class="inline-flex items-center gap-1 mt-4 text-gold text-sm font-semibold hover:gap-2 transition-all">View details <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>
+        <div class="p-5"><div class="flex justify-between items-start"><h3 class="font-serif text-xl font-bold group-hover:text-gold transition">${escapeHtml(p.title)}</h3><span class="text-gold font-bold">₦${p.price}</span></div><p class="text-gray-500 text-sm mt-1">${escapeHtml(p.location)}</p><p class="text-gray-600 text-sm mt-2 line-clamp-2">${escapeHtml(p.description)}</p><a href="/property-details?id=${p.id}" class="inline-flex items-center gap-1 mt-4 text-gold text-sm font-semibold hover:gap-2 transition-all">View details <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>
       </div>
     `).join('');
     lucide.createIcons();
